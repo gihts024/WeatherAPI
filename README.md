@@ -4,7 +4,19 @@
 This API allows the user to search for multiple cities and get the weather forecast for the day of search and 5 more days. The API also stores the nameof the searched cities so that the user is able to click them and get the forecast again.
 
 ### Table of Contents
-undefined
+[Description](https://github.com/gihts024/WeatherAPI#Description)
+
+[Installation](https://github.com/gihts024/WeatherAPI#Installation)
+
+[Usage](https://github.com/gihts024/WeatherAPI#Usage)
+
+[License](https://github.com/gihts024/WeatherAPI#License)
+
+[Demo](https://gihts024.github.io/WeatherAPI/)
+
+[Test Instructions](https://github.com/gihts024/WeatherAPI#Test_Instructions)
+
+[Links](https://github.com/gihts024/WeatherAPI#Links)
 
 ### Installation ###
 
