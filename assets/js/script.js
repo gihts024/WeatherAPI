@@ -74,7 +74,6 @@ function dayForecast(){
 // 5 days fore cast function
 function fiveForecast () {
     let city = uname.value;
-   
   
     var forCast= `https://api.openweathermap.org/data/2.5/forecast?q=`+ city +`&cnt=5&appid=5260028c18f47a380a6846e434146f55`;  
   $.ajax({
@@ -82,10 +81,10 @@ function fiveForecast () {
     method: 'GET',
   }).then(function (response) {
     console.log('Ajax Reponse \n-------------');
-let forecastEls = document.querySelectorAll(".weatherForecast");
+let forecastEls = $(".weatherForecast");
     for (i=0; i<5; i++) {
-      // let weatherIcon = document.createElement("img");
-      // forecastEls[i].append(weatherIcon);
+      let weatherImage = document.createElement("img");
+      $('#weatherIcon').append(weatherImage);
   
       let foreCastDate = document.createElement('p');
       foreCastDate.innerHTML = (response.list[i].dt_txt);
@@ -114,12 +113,12 @@ let forecastEls = document.querySelectorAll(".weatherForecast");
     return response.json;
   });
   }
-  let cityList = document.querySelectorAll("#cityHistory");
-  let searchHistory = document.createElement('p');
-  for (i=0; i= newCity.length; i++) {
-    localStorage.getItem("city", uname.value);
-    searchHistory.innerHTML = uname.value
-    searchHistory[i].append(cityList);
+  // let cityList = document.querySelectorAll("#cityHistory");
+  // let searchHistory = document.createElement('p');
+  // for (i=0; i= newCity.length; i++) {
+  //   localStorage.getItem("city", uname.value);
+  //   searchHistory.innerHTML = uname.value
+  //   searchHistory[i].append(cityList);
   
-  };
+  // };
   
