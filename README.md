@@ -12,7 +12,7 @@ This API allows the user to search for multiple cities and get the weather forec
 
 [License](https://github.com/gihts024/WeatherAPI#License)
 
-[Demo](https://gihts024.github.io/WeatherAPI/)
+[Demo](https://www.youtube.com/watch?v=bGFSqp_vK58)
 
 [Test Instructions](https://github.com/gihts024/WeatherAPI#Test_Instructions)
 
