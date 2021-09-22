@@ -16,7 +16,7 @@ var todaysForecast = document.getElementById("#todaysForecast");
  var day = moment().format('MMMM Do YYYY, h:mm:ss a');
 
 
-
+// Initiate the start process
 function send() {
     localStorage.setItem ("city", uname.value);
     console.log(uname.value);
