@@ -113,12 +113,5 @@ let forecastEls = $(".weatherForecast");
     return response.json;
   });
   }
-  // let cityList = document.querySelectorAll("#cityHistory");
-  // let searchHistory = document.createElement('p');
-  // for (i=0; i= newCity.length; i++) {
-  //   localStorage.getItem("city", uname.value);
-  //   searchHistory.innerHTML = uname.value
-  //   searchHistory[i].append(cityList);
-  
-  // };
+ };
   
